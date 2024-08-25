@@ -26,7 +26,7 @@ body{
 hr{
     border: none;
     background-color: var(--secondary-color);
-    height: 0.5vh;
+    height: 0.8vh;
     width: 90vw;
     margin: auto;
 }
@@ -80,8 +80,8 @@ nav{
 
 .home{
     padding: 20px;
-    height: 70vh;
-    margin:12vh auto;
+    height: 100vh;
+    margin:auto;
     width: 80vw;
     display: flex;
     align-items: center;
@@ -123,7 +123,7 @@ height: 70vh;
 /* about section  */
 
 .about{
-    height:70vh;
+    height:62vh;
     margin:16vh auto;
     padding: 3vh 7vw;
     gap: 5vh;
@@ -138,35 +138,42 @@ height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(15 23 42 );
-    padding: 10vh;
-    border-radius: 8px;
+    background: transparent;
+    padding: 6vh;
+    border-radius: 40px;
     border: 2px solid white;
+    color: var(--secondary-color);
 }
 
 .center h2{
     margin-bottom: 5vh;
     font-size: 3em;
+    text-shadow:
+      5px 5px 0 #000, 
+      -1px -1px 0 #000,
+      1px -1px 0 #000,  
+      -1px 1px 0 #000;
     color: var(--semiDark-color);
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .about p{
     font-size: 1em;
     text-align: center;
-    color: var(--secondary-color);
     margin-bottom: 2vh;
 }
 
 .about li{
-    color: var(--secondary-color);
     margin-top: 2vh;
 }
 
 /* projects section  */
 
 .projects {
-    height: 75vh;
-    margin:10vh auto;
+    height: 85vh;
+    margin:10vh auto 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,7 +181,15 @@ height: 70vh;
 }
 
 .projects h2{
+    background-color: var(--secondary-color);
     font-size: 3em;
+    border-radius: 20px;
+    padding: 10px;
+    text-shadow:
+      5px 5px 0 #000, 
+      -1px -1px 0 #000,
+      1px -1px 0 #000,  
+      -1px 1px 0 #000;  
 }
 
 .project-link{
@@ -192,11 +207,11 @@ height: 70vh;
 .box{
     background-color:var(--primary-color);
     border: 2px solid white;
-    border-radius: 6px;
+    border-radius: 40px;
     padding:10vh 2vw;
     display: flex;
     flex-direction: column;
-    gap:4vh;
+    gap:7vh;
     align-items: center;
 }
 
@@ -216,6 +231,18 @@ footer{
     flex-direction: column;
     align-items: center;
     color: var(--semiDark-color);
+}
+
+.foot h2{
+    background-color: var(--secondary-color);
+    font-size: 2em;
+    border-radius: 20px;
+    padding: 10px;
+    text-shadow:
+      5px 5px 0 #000, 
+      -1px -1px 0 #000,
+      1px -1px 0 #000,  
+      -1px 1px 0 #000;  
 }
 
 footer a{
@@ -260,10 +287,24 @@ a{
 }
 
 .box{
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease,box-shadow 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
+    box-shadow: 0 0 1vh 0.8vh black;
 }
 
 .box:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 1vh 0.2vh var(--secondary-color);
+}
+
+.center:hover{
+    transform: scale(1.03);
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 1vh 0.2vh var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.center{
+    transition: transform 0.3s ease,background-color 0.5s ease, box-shadow 0.3s ease,color 0.3s ease;
 }
