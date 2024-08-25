@@ -17,7 +17,7 @@ html {
 
 body{
     background-image: url("Assets/hero-bg.jpg");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
@@ -64,7 +64,7 @@ nav{
     text-decoration: none;
     color: var(--secondary-color);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 30px;
     margin-right: 2vw;
     border: 2px solid white;
 }
@@ -256,7 +256,7 @@ a{
 
 .nav-links a:hover{
     background-color: #fff;
-    box-shadow: 0 0 1vh 0.2vh var(--secondary-color);
+    box-shadow: 0 0 1vh 0.2vh white;
 }
 
 .box{
