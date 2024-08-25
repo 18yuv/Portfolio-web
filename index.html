@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvraj's Portfolio 💪🔥</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon or logo -->
+    <link rel="icon" href="Assets/favicon.jpeg">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts 'poppins' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navText">
+                <p>My Portfolio</p>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="homeText">
+                <h1 class="semiDark">
+                    Hey, I am Yuvraj
+                </h1>
+                <h1 class="homeSpan">
+                    <span id="element"></span>
+                </h1>
+                <h1 class="semiDark">
+                    Based in India.
+                </h1>
+                <a href="https://github.com/yuvi-18" target="_blank">GitHub<i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="mainImg">
+                <img src="./Assets/main-png.webp" alt="Person sitting and codding">
+            </div>
+        </section>
+        <hr id="about">
+        <section class="about">
+            <div class="center">
+                <h2>About Me</h2>
+                <p>
+                    Hey, I'm Yuvraj Singh,a Software Engineer who loves to code and use the knowledge to build cool new things. In addition to that I keep on learning new concepts, frameworks,languages or in general new things to explore and also I love science and playing football.
+                </p>
+            </div>
+            <div class="center">
+                <h2>
+                    Technologies
+                </h2>
+                <p>
+                    As of now I am comfortable with the following Technologies:-
+                    <ul>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Javascript</li>
+                        <li>Tailwind css</li>
+                    </ul>
+                </p>
+            </div>
+        </section>
+        <hr id="project">
+        <section class="projects">
+            <div class="head">
+                <h2 class="semiDark">
+                    My Latest Projects
+                </h2>
+            </div>
+            <div class="project-link">
+                <div class="box" onclick="window.location.href=''">
+                    <h2>
+                        Netflix UI/UX Clone
+                    </h2>
+                    <img src="Assets/netflixproject.jpeg" alt="Netflix-uiux-clone">
+                </div>
+                <div class="box" onclick="window.location.href=''">
+                    <h2>
+                        Portfolio Website
+                    </h2>
+                    <img src="Assets/Portfolio.jpeg" alt="Portfolio-website">
+                </div>
+                <div class="box" onclick="window.location.href=''">
+                    <h2>
+                        Amazon UI/UX Clone
+                    </h2>
+                    <img src="Assets/Amazon-project.jpeg" alt="Amazon-uiux-clone">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <hr id="contact">
+
+    <footer>
+            <div class="foot">
+                <h1>
+                    Socials/Contact
+                </h1>
+            </div>
+            <div class="buttons">
+                <a href="mailto:yuvraj94570@gmail.com" target="_blank">Gmail<i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/yuvi-18" target="_blank">GitHub<i class="fa-brands fa-github"></i></a>
+                <a href="">LinkedIn<i class="fa-brands fa-linkedin"></i></a>
+                <a href="">X.com<i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+    </footer>
+
+<!-- some prebuild animation -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Designer','Web Developer','Software Engineer.'],
+      typeSpeed: 70,
+    });
+  </script>
+</body>
+
+</html>
