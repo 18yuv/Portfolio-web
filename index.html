@@ -22,45 +22,49 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 </head>
-
 <body>
-    <header>
-        <nav>
-            <div class="navText">
-                <p>My Portfolio</p>
-            </div>
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#project">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section class="home" id="home">
-            <div class="homeText">
-                <h1 class="semiDark">
-                    Hey, I am Yuvraj
-                </h1>
-                <h1 class="homeSpan">
-                    <span id="element"></span>
-                </h1>
-                <h1 class="semiDark">
-                    Based in India.
-                </h1>
-                <a href="https://github.com/yuvi-18" target="_blank">GitHub<i class="fa-brands fa-github"></i></a>
-            </div>
-            <div class="mainImg">
-                <img src="./Assets/main-png.webp" alt="Person sitting and codding">
-            </div>
-        </section>
-        <hr id="about">
+    <div class="bg1">
+        <header>
+            <nav>
+                <div class="navText">
+                    <p>Yuvraj's Portfolio</p>
+                </div>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#project">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="home" id="home">
+                <div class="homeText">
+                    <h1 class="semiDark">
+                        Hey, I am Yuvraj
+                    </h1>
+                    <h1 class="homeSpan">
+                        <span id="element"></span>
+                    </h1>
+                    <h1 class="semiDark">
+                        Based in India.
+                    </h1>
+                    <a href="https://github.com/yuvi-18" target="_blank">GitHub<i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="mainImg">
+                    <img src="./Assets/main-png.webp" alt="Person sitting and codding">
+                </div>
+            </section>
+    </div>
+    <div class="bg2">
+    <hr id="about">
         <section class="about">
             <div class="center">
                 <h2>About Me</h2>
                 <p>
-                    Hey, I'm Yuvraj Singh,a Software Engineer who loves to code and use the knowledge to build cool new things. In addition to that I keep on learning new concepts, frameworks,languages or in general new things to explore and also I love science and playing football.
+                    Hey, I'm Yuvraj Singh,a Software Engineer who loves to code and use the knowledge to build cool new
+                    things. In addition to that I keep on learning new concepts, frameworks,languages or in general new
+                    things to explore and also I love science and playing football.
                 </p>
             </div>
             <div class="center">
@@ -70,10 +74,10 @@
                 <p>
                     As of now I am comfortable with the following Technologies:-
                     <ul>
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>Javascript</li>
-                        <li>Tailwind css</li>
+                        <li><i class="fa-brands fa-html5"></i>Html</li>
+                        <li><i class="fa-brands fa-css3-alt"></i>Css</li>
+                        <li><i class="fa-brands fa-js"></i>Javascript</li>
+                        <li><i class="fa-solid fa-droplet"></i>Tailwind css</li>
                     </ul>
                 </p>
             </div>
@@ -107,31 +111,32 @@
             </div>
         </section>
     </main>
-
+    
     <hr id="contact">
-
+    
     <footer>
-            <div class="foot">
-                <h2>
-                    Socials/Contact
-                </h2>
-            </div>
-            <div class="buttons">
-                <a href="mailto:yuvraj94570@gmail.com" target="_blank">Gmail<i class="fa-solid fa-envelope"></i></a>
-                <a href="https://github.com/yuvi-18" target="_blank">GitHub<i class="fa-brands fa-github"></i></a>
-                <a href="">LinkedIn<i class="fa-brands fa-linkedin"></i></a>
-                <a href="">X.com<i class="fa-brands fa-x-twitter"></i></a>
-            </div>
+        <div class="foot">
+            <h2>
+                Socials/Contact
+            </h2>
+        </div>
+        <div class="buttons">
+            <a href="mailto:yuvraj94570@gmail.com" target="_blank">Gmail<i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/yuvi-18" target="_blank">GitHub<i class="fa-brands fa-github"></i></a>
+            <a href="">LinkedIn<i class="fa-brands fa-linkedin"></i></a>
+            <a href="">X.com<i class="fa-brands fa-x-twitter"></i></a>
+        </div>
     </footer>
-
-<!-- some prebuild animation -->
-<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-<script>
-    var typed = new Typed('#element', {
-      strings: ['Web Designer','Web Developer','Software Engineer.'],
-      typeSpeed: 70,
-    });
-  </script>
+</div>
+    
+    <!-- some prebuild animation -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Web Developer', 'Software Engineer.'],
+            typeSpeed: 70,
+        });
+        </script>
 </body>
 
 </html>
