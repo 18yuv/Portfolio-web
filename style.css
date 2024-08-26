@@ -18,16 +18,16 @@ html {
         --fs-large: 2.5rem;
         --fs-medium: 1.8rem;
         --fs-small: 1rem;
-        --fs-xsmall: 0.8rem;
+        --fs-xsmall: 0.9rem;
     }
 }
 
 @media (max-width:700px) {
     :root {
-        --fs-large: 1.7rem;
-        --fs-medium: 1rem;
+        --fs-large: 1.9rem;
+        --fs-medium: 1.3rem;
         --fs-small: 0.8rem;
-        --fs-xsmall: 0.6rem;
+        --fs-xsmall: 0.7rem;
     }
 }
 
@@ -414,7 +414,7 @@ a {
     }
 
     .homeText{
-        width: 80%;
+        width: 100%;
         align-items: center;
     }
 
@@ -488,5 +488,8 @@ a {
     }
     footer{
         height:60vh;
+    }
+    .home a{
+        width:35%;
     }
 }
