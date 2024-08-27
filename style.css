@@ -58,6 +58,24 @@ hr {
     margin: auto;
 }
 
+/* for giving shadow  */
+
+.shadow{
+    box-shadow: 0 0 60px 1px var(--secondary-color) ;
+}
+
+/* for box shadow of headers  */
+
+.headShadow {
+    box-shadow: 2px 2px 0 1px #93c5fd;
+    border: 2px solid #93c5fd;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.headShadow:hover{
+    box-shadow: 1px 1px 0 0.5px #93c5fd;
+    transform: scale(0.99);
+}
 
 /* for giving primary color to the fonts or links etc */
 
