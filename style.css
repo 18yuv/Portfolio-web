@@ -67,13 +67,13 @@ hr {
 /* for box shadow of headers  */
 
 .headShadow {
-    box-shadow: 2px 2px 0 1px #93c5fd;
+    box-shadow: 1px 1px 0 1px #93c5fd;
     border: 2px solid #93c5fd;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .headShadow:hover{
-    box-shadow: 1px 1px 0 0.5px #93c5fd;
+    box-shadow: 0.5px 0.5px 0 0.5px #93c5fd;
     transform: scale(0.99);
 }
 
@@ -212,8 +212,6 @@ nav {
         -1px -1px 0 #000,
         1px -1px 0 #000,
         -1px 1px 0 #000;
-    color: var(--semiDark-color);
-    background-color: var(--secondary-color);
     border-radius: 20px;
     padding: 10px;
 }
@@ -273,7 +271,6 @@ nav {
 
 
 .projects h2 {
-    background-color: var(--secondary-color);
     text-align: center;
     border-radius: 20px;
     font-size: var(--fs-large);
@@ -288,7 +285,6 @@ nav {
 /* box container for images  */
 
 .box {
-    background-color: var(--primary-color);
     border: 2px solid white;
     border-radius: 40px;
     padding: 10vh 2vw;
@@ -300,7 +296,7 @@ nav {
 
 .box h2 {
     font-size: var(--fs-small);
-    color: var(--semiDark-color);
+    color: #93c5fd;
 }
 
 
@@ -317,7 +313,6 @@ footer {
 }
 
 .foot h2 {
-    background-color: var(--secondary-color);
     font-size: var(--fs-medium);
     border-radius: 20px;
     padding: 10px;
@@ -382,8 +377,9 @@ a {
 }
 
 .nav-links a:hover {
-    box-shadow: 0.2vh 0.2vh 1vh 0.2vh var(--semiDark-color);
-    color: white;
+    box-shadow: 0.5vh 0.5vh 1vh 0.5vh var(--secondary-color);
+    border:2px solid #93c5fd;
+    color: #93c5fd;
 }
 
 .nav-links {
@@ -391,14 +387,14 @@ a {
 }
 
 .box {
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-    box-shadow: 1vh 1vh 1vh 1vh black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border 0.3s ease;
 }
 
 .box:hover {
     transform: scale(1.015);
-    background-color: var(--secondary-color);
-    box-shadow: 1vh 1vh 1.2vh 0.2vh var(--secondary-color);
+    background:transparent;
+    box-shadow: 0.5vh 0.5vh 1vh 0.5vh var(--secondary-color);
+    border: 2px solid #93c5fd;
 }
 
 .box img {
@@ -410,17 +406,20 @@ a {
     box-shadow: 1vh 1vh 1vh 0.8vh black;
 }
 
+h2{
+    background: transparent;
+}
+
 .center:hover {
     transform: scale(1.015);
-    background-color: var(--secondary-color);
-    box-shadow: 1vh 1vh 1vh 0.2vh var(--secondary-color);
-    color: var(--semiDark-color)
+    color: #93c5fd;
+    border: 2px solid #93c5fd;
+    box-shadow: 0.5vh 0.5vh 1vh 0.5vh var(--secondary-color);
 }
 
 .center {
-    transition: transform 0.3s ease, background-color 0.5s ease, box-shadow 0.3s ease, color 0.3s ease;
+    transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
-
 
 /* media quaries for responsiveness  */
 
