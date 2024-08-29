@@ -169,7 +169,10 @@ nav {
 }
 
 .mainImg img {
-    width: 100%;
+    width: 60%;
+    margin-left: 250px;
+    box-shadow: 1vh 1vh 5vh 1vh black;
+    border-radius: 100%;
 }
 
 
