@@ -7,27 +7,27 @@ html {
     --secondary-color: #1e40af;
     --semiDark-color: #60a5fa;
     --bg-color: linear-gradient(to right, #0e1736 0%, #0e1736 45%, #1c042e 75%, #1c042e 100%);
-    --fs-large: 2.5rem;
-    --fs-medium: 1.65rem;
-    --fs-small: 1rem;
-    --fs-xsmall: 0.75rem;
+    --fs-large: 3rem;
+    --fs-medium: 2rem;
+    --fs-small: 1.5rem;
+    --fs-xsmall: 1.25rem;
 }
 
 @media (max-width:950px) {
     :root {
-        --fs-large: 2rem;
-        --fs-medium: 1.2rem;
-        --fs-small: 0.75rem;
-        --fs-xsmall: 0.5rem;
+        --fs-large: 2.5rem;
+        --fs-medium: 1.8rem;
+        --fs-small: 1rem;
+        --fs-xsmall: 0.9rem;
     }
 }
 
 @media (max-width:700px) {
     :root {
-        --fs-large: 1.25rem;
-        --fs-medium: 1rem;
-        --fs-small: 0.5rem;
-        --fs-xsmall: 0.25rem;
+        --fs-large: 1.9rem;
+        --fs-medium: 1.3rem;
+        --fs-small: 0.8rem;
+        --fs-xsmall: 0.7rem;
     }
 }
 
